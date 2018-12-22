@@ -2,14 +2,6 @@
 * 20161149
 * Legend of Zelda
 
-
-* TO START THE GAME, GO THE BUILD DIRECTORY AND RUN ./graphics_asgn1 ON YOUR TERMINAL.
-
-
-
-
-
-Howto run:
 ## Building and Execution
 ```
 mkdir build
