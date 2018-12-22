@@ -7,23 +7,20 @@
 
 
 
-IF YOU KILL 5 MONSTERS, THE BOSS MONSTER WILL COME INTO PLAY
-
-IF YOU COME IN CONTACT WITH THE MONSTER'S FIRE POWER, YOU LOOSE HEALTH.
-
-IF YOUR SCORE GOES LESS THEN 0 AT ANY POINT IN THE GAME, YOUR GAME GETS OVER.
 
 
-How to run:
-1. Make sure you are in the directory 20161149_Assignment2
-2. Run the command mkdir build
-3. Run the command cd build
-4. Run the command cmake ..
-5. Run the command make
-6. Run the command ./graphics_asgn1
+Howto run:
+## Building and Execution
+```
+mkdir build
+cd build/
+cmake ..
+make
+./graphics_asgn1
+```
 
 
-Controls:
+## Controls:
 ● The boat floats in water and can move and jump on it.
 ● To move up, press up key, to move right - right key and to move left - left key.
 ● To jump use the spacebar.
@@ -41,7 +38,16 @@ Controls:
 ● In the game after that if the score again gets 0 at any point in time, game gets over and Game over is displayed on the screen for two seconds before the screen is closed.
 ● The game is infinitely and the player can move anywhere horizontally on the ground.
 
-Game Features
+## Rules
+
+●IF YOU KILL 5 MONSTERS, THE BOSS MONSTER WILL COME INTO PLAY
+
+●IF YOU COME IN CONTACT WITH THE MONSTER'S FIRE POWER, YOU LOOSE HEALTH.
+
+●IF YOUR SCORE GOES LESS THEN 0 AT ANY POINT IN THE GAME, YOUR GAME GETS OVER.
+
+
+## Game Features
 Version 1.0: A static world (Water, boat, rocks)
 Version 2.0: Movement of the boat, wind, collisions with rocks
 Version 3.0: Cannon, Monsters (including boss)
